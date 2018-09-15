@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="287dp"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/splashicon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="MY MEMO"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mainActivityButton"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="?attr/colorPrimary"
+        android:text="CONTINUE"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>

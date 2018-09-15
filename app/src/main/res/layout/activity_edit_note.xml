@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditNoteActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/settitle"
+        android:layout_marginTop="30dp"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/settitle"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="158dp"
+        android:text="Enter Description"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/setdescription"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:background="#3557b4"
+        android:text="SAVE"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/saveButton"
+        android:layout_marginEnd="90dp"
+        android:background="#3557b4"
+        android:text="DELETE"
+        android:visibility="invisible"
+        android:textColor="@color/white" />
+</RelativeLayout>
