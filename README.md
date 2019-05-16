@@ -14,4 +14,4 @@ ________________________________________________________________________________
 Previews
 
 
-![Splash screen](https://i.imgur.com/PVF4mLP.png)  ![memo list](https://i.imgur.com/OKhOok7.png)  ![memo edit](https://i.imgur.com/huqRuqE.png)  
+![Splash screen](https://i.imgur.com/ofBc4it.png)
